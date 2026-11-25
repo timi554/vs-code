@@ -15,6 +15,16 @@ public class App{
         d3.makeSound();
         System.out.println("Done");
 
+        //creating an array of dogs
+        Dog[] dogs = new Dog[3];
+        System.out.println(dogs[0]);
+        dogs[0] = d1;
+        dogs[1] = new Dog("Bob","Pug", true, 90);
+        dogs[2] = new Dog();
+        for (int i = 0; i<dogs.length; i++){
+            System.out.println(dogs[i]);
+        }
+    
 
     }
 }
